@@ -14,4 +14,6 @@
 
 ## Demonstration
 
-[![asciicast](https://asciinema.org/a/icDdcsUucQjc8WwR.svg)](https://asciinema.org/a/icDdcsUucQjc8WwR)
+<a href="https://asciinema.org/a/icDdcsUucQjc8WwR">
+  <img src="https://asciinema.org/a/icDdcsUucQjc8WwR.svg" width="600">
+</a>
