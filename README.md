@@ -12,3 +12,6 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=wheresense_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=wheresense_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=wheresense_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=wheresense_python-project-49)
 
+## Demonstration
+
+[![asciicast](https://asciinema.org/a/icDdcsUucQjc8WwR.svg)](https://asciinema.org/a/icDdcsUucQjc8WwR)
