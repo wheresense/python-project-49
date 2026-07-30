@@ -2,7 +2,7 @@ import random
 
 rules = 'Answer "yes" if the number is even, otherwise answer "no".'
 
-def run_game_even() -> None:
+def run_game_even() -> tuple:
     input_data = random.randint(1, 100)
     correct_answer = is_even(input_data)
     return input_data, correct_answer

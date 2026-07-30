@@ -2,7 +2,7 @@ import random
 
 rules = 'Find the greatest common divisor of given numbers.'
 
-def run_game_gcd() -> None:
+def run_game_gcd() -> tuple:
     first_number = random.randint(1, 100)
     second_number = random.randint(1,100)
     input_data = f'{first_number} {second_number}'

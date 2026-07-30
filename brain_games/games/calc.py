@@ -2,7 +2,7 @@ import random
 
 rules = 'What is the result of the expression?'
 
-def run_game_calc() -> None:
+def run_game_calc() -> tuple:
     first_number = random.randint(0, 100)
     second_number = random.randint(0,100)
     mathematical_action = random.choice(['+', '-', '*'])
