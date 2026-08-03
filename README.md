@@ -29,3 +29,7 @@
 <a href="https://asciinema.org/a/jxosfyIXGPtevHFY">
   <img src="https://asciinema.org/a/jxosfyIXGPtevHFY.svg" width="600">
 </a>
+
+<a href="https://asciinema.org/a/H4a89Lj4PybXTcB5">
+  <img src="https://asciinema.org/a/H4a89Lj4PybXTcB5.svg" width="600">
+</a>
