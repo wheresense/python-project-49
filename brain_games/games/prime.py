@@ -2,10 +2,12 @@ import random
 
 rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def run_game_prime() -> None:
     input_data = random.randint(1, 100)
     correct_answer = is_prime(input_data)
     return input_data, correct_answer
+
 
 def is_prime(number: int) -> str:
     square_root = int(number ** 0.5)

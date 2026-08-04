@@ -2,9 +2,11 @@ import random
 
 rules = 'What number is missing in the progression?'
 
+
 def run_game_progression() -> None:
     input_data, correct_answer = get_sequence()
     return input_data, correct_answer
+
 
 def get_sequence() -> list:
     len_sequence = random.randint(5, 10)
@@ -15,9 +17,9 @@ def get_sequence() -> list:
     count = 0 
 
     while count != len_sequence:
-         current_element = current_element + step_sequence
-         sequence.append(current_element)
-         count += 1
+        current_element = current_element + step_sequence
+        sequence.append(current_element)
+        count += 1
 
     hidden_element = str(sequence[step_sequence])
     sequence[step_sequence] = '..'

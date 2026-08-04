@@ -1,5 +1,6 @@
-from brain_games.scripts import brain_games
 from collections.abc import Callable
+
+from brain_games.scripts import brain_games
 
 
 def run_game(rules: str, game: Callable[[], tuple[str, str]]) -> None:
@@ -15,7 +16,8 @@ def run_game(rules: str, game: Callable[[], tuple[str, str]]) -> None:
             print('Correct!')
             count += 1
         else:
-            print(f'"{answer}" is wrong answer ;(. Correct answer was "{correct_answer}".')
+            print(f'"{answer}" is wrong answer ;(. '
+                  'Correct answer was "{correct_answer}".')
             print(f"Let's try again, {name}!")
             break
 
