@@ -1,10 +1,12 @@
 from collections.abc import Callable
 
-from brain_games.scripts import brain_games
+from brain_games.cli import welcome_user
 
 
 def run_game(rules: str, game: Callable[[], tuple[str, str]]) -> None:
-    name = brain_games.main()
+    print("Welcome to the Brain Games!")
+    name = welcome_user()
+    print(f'Hello, {name}!')
     print(rules)
     count = 0
 
